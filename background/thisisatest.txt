@@ -1,1 +1,5 @@
 # Explenations on how to start git hub repo
+
+add message wiht commit to file 1
+then add file 2
+and add message wiht commit to file 2
