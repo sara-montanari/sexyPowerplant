@@ -17,7 +17,3 @@ wiht commit -m you can add a message to yor file in git
 ### use checkout to change order of versions of committed files
 i.e. git checkout HEAD~1 file --> the last version is now the current verison
 git checkout HEAD file --> now back to the current version as current version
-
-### compare versions
-git diff HEAD HEAD~3 file
-this will compare the current version wiht the version 3 modifications ago
