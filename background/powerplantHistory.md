@@ -15,5 +15,10 @@ the new file that is committed is the one with modifications
 wiht commit -m you can add a message to yor file in git
 
 ### use checkout to change order of versions of committed files
-i.e. git checkout HEAD~1 file --> the last version is now the current verison
-git checkout HEAD file --> now back to the current version as current version
+i.e.
+git checkout HEAD~1 file --> change to the previous version that was committed
+git checkout HEAD file --> now back to the current version ((committed)
+
+Cannot do if versions are not committed, they will be lost wiht checkout
+
+After checkout to another version, commit to save it as the latest committed version
