@@ -22,3 +22,8 @@ git checkout HEAD file --> now back to the current version ((committed)
 Cannot do if versions are not committed, they will be lost wiht checkout
 
 After checkout to another version, commit to save it as the latest committed version
+
+### list filt to ignore, i.e. not to add to the repo
+nano .gitignore
+list files to ignore here, can use wildcards
+usually you want to ignore data files, such as csv or fastq
